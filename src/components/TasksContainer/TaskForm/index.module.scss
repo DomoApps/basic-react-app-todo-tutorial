@@ -1,0 +1,84 @@
+
+.TaskForm {
+  border-radius: 12px;
+  background-color: #FAFAFA;  
+  width: 500px;
+  height: 575px;
+  & input, select, textarea {
+    width: 85%;
+    border: 1px solid #999999;
+  }
+}
+
+.TaskForm__ButtonsWrapper{
+  margin-top: 30px;
+  display: flex;
+  gap: 2%;
+   & > button {
+     width: 48%;
+   }
+}
+
+.TaskForm__titleBox {
+  padding: 24px 12px;
+}
+
+.TaskForm__formBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.TaskForm__formBoxContent {
+  padding: 19px 16px !important;
+}
+
+.TaskForm__formInput {
+  padding: 16px 22px 17px 22px;
+  background-color: white;
+  border-color: white;
+  border-radius: 8px;
+  color: black !important;
+  margin-bottom: 12px !important;
+
+  & > input {
+    padding: 0;
+  }
+  fieldset {
+    border: none !important;
+  }
+}
+
+.TaskForm__formNotes {
+  min-height: 98px;
+  background-color: white;
+  border-color: white;
+  border-radius: 8px;
+  color: black !important;
+  margin-bottom: 12px !important;
+  &::placeholder{
+    padding: 12px !important;
+  }
+}
+
+.TaskForm__formSubTitle {
+  padding-top: 12px;
+  color: rgba(0, 0, 0, 0.5);;
+}
+
+.TaskForm__createButton {
+  padding: 8px;
+  background-color: #FC9927 !important;
+  color: white !important;
+  font-weight: 700 !important;
+  font-size: 12px !important;
+}
+
+.TaskForm__createButton:disabled {
+  border: 1px solid #999999;
+  background-color: #cccccc !important;
+  color: #666666;
+}
+
+.TaskForm__alert {
+  margin: auto;
+}

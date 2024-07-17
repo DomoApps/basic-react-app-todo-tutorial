@@ -1,0 +1,24 @@
+.List__container {
+  margin: 3% auto;
+}
+
+.List__empty{
+  margin: 2% auto;
+}
+
+.List__add {
+  float: right;
+  margin-right: 16px;
+  background-color: #99CCEE;
+}
+
+.List__addButton{
+  min-width: 100px;
+  margin: 4px;
+  padding: 8px;
+  font-weight: 500;
+}
+
+.List__loading {
+  margin-top: 24px;
+}

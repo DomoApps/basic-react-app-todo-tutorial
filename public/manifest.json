@@ -1,9 +1,25 @@
 {
-    "name": "React DomoApp",
+    "name": "To-do app",
     "version": "0.0.1",
     "size": {
         "width": 3,
         "height": 3
     },
-    "mapping": []
+    "mapping": [],
+    "id": "23307940-6dfe-40c4-86f8-8a7b0f5d8b3a",
+    "proxyId": "95bd96f9-0385-465a-b485-c16935cf771a",
+    "collections": [
+        {
+            "name": "TasksCollection",
+            "schema": {
+              "columns": [
+                { "name": "title", "type": "STRING" },
+                { "name": "description", "type": "STRING" },
+                { "name": "dueDate", "type": "STRING" },
+                { "name": "status", "type": "STRING" },
+                { "name": "priority", "type": "STRING" }
+              ]
+            }
+        }
+    ]
 }
