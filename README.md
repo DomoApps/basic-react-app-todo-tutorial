@@ -1,4 +1,6 @@
 # Todo App with AppDB
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FDomoApps%2Fbasic-react-app-todo-tutorial.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FDomoApps%2Fbasic-react-app-todo-tutorial?ref=badge_shield)
+
 
 A shared task manager built as a Domo Custom App — React + TypeScript + Redux Toolkit, backed by [AppDB](https://domo.com/docs/portal/API-Reference/app-framework-apis/AppDB-API). Stamps ownership (`ownerId` / `ownerName`) onto every todo, fetches the current user's identity and avatar, and exposes CRUD through typed Redux slices.
 
@@ -65,3 +67,7 @@ See the [tutorial](https://domo.com/docs/portal/Apps/App-Framework/Tutorials/Rea
 | `pnpm generate`  | Scaffold new components / reducers with `da generate` |
 | `pnpm test`      | Run Vitest                                            |
 | `pnpm storybook` | Launch Storybook                                      |
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FDomoApps%2Fbasic-react-app-todo-tutorial.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FDomoApps%2Fbasic-react-app-todo-tutorial?ref=badge_large)
